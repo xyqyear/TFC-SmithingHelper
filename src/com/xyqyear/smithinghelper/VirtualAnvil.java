@@ -2,6 +2,8 @@ package com.xyqyear.smithinghelper;
 import java.util.*;
 
 class VirtualAnvil {
+    int MAX_STEP = 10;
+
     long seed;
     int inputItemId;
     int outputItemId;
@@ -25,7 +27,7 @@ class VirtualAnvil {
 
 
         // initialize result map
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < MAX_STEP; i++) {
             this.result.put(i, new ArrayList<>());
         }
 
@@ -44,7 +46,7 @@ class VirtualAnvil {
     }
 
     public void calculateSteps(List<Integer> steps, int stepNum) {
-        if (sumOfList(steps) < 0 || sumOfList(steps) > 150 || stepNum > 9) {
+        if (sumOfList(steps) < 0 || sumOfList(steps) > 150 || stepNum > MAX_STEP-1) {
             return;
         }
 
@@ -66,7 +68,7 @@ class VirtualAnvil {
     }
 
     public void findMinSteps() {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 4; i < MAX_STEP; i++) {
             if (!result.get(i).isEmpty()) {
                 List<Integer> bestWay = result.get(i).get(0);
                 for (int step : bestWay) {
