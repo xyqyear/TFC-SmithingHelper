@@ -6,11 +6,11 @@
 
 ## 使用方法
 
-[简明使用方法](###使用流程)
+[简明使用方法](#使用流程)
 
 另见博客文章:
 
-[]()
+[https://www.xyqyear.com/2020/01-24/qun-luan-chuan-shuo-duan-zao-gong-shi-ji-suan-qi/](https://www.xyqyear.com/2020/01-24/qun-luan-chuan-shuo-duan-zao-gong-shi-ji-suan-qi/)
 
 打开程序，程序会要去输入
 
@@ -47,7 +47,7 @@
 
 上面说的手动输入也是用的这个数字的格式来输入。
 
-### 使用流程
+## 使用流程
 
 所以一个完整的流程是这样的：
 
