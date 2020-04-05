@@ -10,7 +10,7 @@
 
 另见博客文章:
 
-[https://www.xyqyear.com/2020/01-24/qun-luan-chuan-shuo-duan-zao-gong-shi-ji-suan-qi/](https://www.xyqyear.com/2020/01-24/qun-luan-chuan-shuo-duan-zao-gong-shi-ji-suan-qi/)
+[https://blog.xyqyear.com/2020/01-24/qun-luan-chuan-shuo-duan-zao-gong-shi-ji-suan-qi/](https://www.xyqyear.com/2020/01-24/qun-luan-chuan-shuo-duan-zao-gong-shi-ji-suan-qi/)
 
 打开程序，程序会要去输入
 
